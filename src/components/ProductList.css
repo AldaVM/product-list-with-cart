@@ -1,0 +1,19 @@
+.product-list-container {
+  width: 100%;
+  grid-area: products;
+}
+
+.product-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.product-list-title {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  color: hsl(14, 65%, 9%);
+} 
