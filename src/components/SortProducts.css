@@ -1,0 +1,36 @@
+.sort-products {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: hsl(14, 65%, 9%);
+  font-size: 0.875rem;
+}
+
+.sort-select {
+  position: relative;
+  display: inline-block;
+  width: 7rem;
+}
+
+.sort-select select {
+  appearance: none;
+  width: 100%;
+  padding: 0.250rem 0.5rem;
+  border: 1px solid hsl(14, 65%, 9%);
+  background-color: white;
+  color: hsl(14, 65%, 9%);
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  background-image: none;
+}
+
+.sort-select::after {
+  content: '▼';
+  font-size: 0.875rem;
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: hsl(14, 65%, 9%);
+}
